@@ -3,8 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tide's personal website:about</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tide's personal website: about</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,11 +66,11 @@
         </nav>
     </header>
     <main>
-        <h2>关于我的</h2>
-        <p>我的微信:z13803578567</p>
-        <p>我的QQ:z13803578567</p>
-        <p>我的个人邮箱:13803578567@163.com</p>
-        <p>我的学校邮箱:1120230922@bit.edu.cn</p>
+        <h2>关于我</h2>
+        <p>我的微信: <a href="tel:+8613803578567">z13803578567</a></p>
+        <p>我的QQ: <a href="tencent://message/?uin=13803578567">z13803578567</a></p>
+        <p>我的个人邮箱: <a href="mailto:13803578567@163.com">13803578567@163.com</a></p>
+        <p>我的学校邮箱: <a href="mailto:1120230922@bit.edu.cn">1120230922@bit.edu.cn</a></p>
     </main>
     <footer>
         <p>&copy; 2024 Tide's personal website</p>
